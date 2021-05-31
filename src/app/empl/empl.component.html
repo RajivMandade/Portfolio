@@ -26,47 +26,47 @@
   </head>
   <body class='back'>
      
-        <div class="container-fluid">
-		     <div class="row">
+       
 			 	
-		        <div class="col-md-12">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand" [routerLink]="['/contact']" routerLinkActive="router-link-active"  href="contact.html">Contact</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		        
+				<nav class="navbar   navbar-expand-lg navbar-light bg-light">
+					<div class="container-fluid">
+				<!---<a class="navbar-brand" [routerLink]="['/contact']" routerLinkActive="router-link-active"  href="contact.html">Contact</a>---->
+				<a class="navbar-brand" style="margin-left: 50px;" [routerLink]="['/contact']" routerLinkActive="router-link-active" href="#">Contact</a>	
+				<button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
-					</button>
+				</button>
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-					<a class="nav-link" href="Index.html">Home <span class="sr-only"></span></a>
-					</li>
+					<div class=" collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+							<li class="nav-item ">
+								<a class="nav-link active" aria-current="page" href="Index.html">Home <span class="sr-only"></span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link"   routerLinkActive="active" routerLink="about"  href="">About Me</a>
+							</li>
+							<li class="nav-item dropdown">
+					   		 	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Project
+								</a>
+					  			 	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					     				<li><a class="dropdown-item" [routerLink]="['/project1']" routerLinkActive="router-link-active"  href="project1.html">Project 1</a></li>
+					     				<li><a class="dropdown-item" [routerLink]="['/project2']" routerLinkActive="router-link-active"   href="project2.html">Project2</a></li>
+			            		    	<li><a class="dropdown-item" [routerLink]="['/project3']" routerLinkActive="router-link-active"  href="project3.html">Project3</a></li>
+					   			 	</ul>
+							</li>
 					<li class="nav-item">
-					<a class="nav-link"   routerLinkActive="active" routerLink="about"  href="">About Me</a>
-					</li>
-					<li class="nav-item dropdown">
-					    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					   Project
-					   </a>
-					   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					     <li><a class="dropdown-item" [routerLink]="['/project1']" routerLinkActive="router-link-active"  href="project1.html">Project 1</a></li>
-					     <li><a class="dropdown-item" [routerLink]="['/project2']" routerLinkActive="router-link-active"   href="project2.html">Project2</a></li>
-			             <li><a class="dropdown-item" [routerLink]="['/project3']" routerLinkActive="router-link-active"  href="project3.html">Project3</a></li>
-					   </ul>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Rajiv Mandade</a>
+					<a class="nav-link disabled" style="color: rgba(36, 29, 9, 0.897);" href="#" tabindex="-1" aria-disabled="true">Rajiv Mandade</a>
 					</li>
 					</ul>
-					<form class="form-inline my-2 my-lg-0">
+				
+					</div>
 					
-					
-					</form>
 					</div>
 				</nav>
 				<router-outlet></router-outlet>
 				
-				</div>
+				
                 <!----Image Start with box slider--->
 				<div class="col-md-10 ms-auto me-auto my-auto">
 					<h1 style="color: rgba(2, 15, 11, 0.63);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Photography is Art</h1>
@@ -208,13 +208,14 @@
 						  
 						  
 					</table>
-			 
 			 </div>
+			 
+	
 			
 			
-		</div>
 		
-	</div>
+		
+
 	<!----
 	 <script src="jquery.min.js"></script>
 
