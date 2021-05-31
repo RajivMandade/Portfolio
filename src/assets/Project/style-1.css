@@ -1,0 +1,316 @@
+*{
+   box-sizing:border-box;
+}
+   
+.logo{
+	
+}
+.name {
+	text-decoration:none;
+	text-align:center;
+	height:136px;
+	padding-top:50px;
+	background-color:#00FF00;
+	font-size:40px;
+	color:white;
+	font-weight:bold;
+	background-image: url('gcen.jpg');
+	
+	
+}
+.name a{
+	 text-decoration:none;
+    text-align:center;
+	color:#FCF3CF;
+	display:block
+	
+	
+	
+}
+.Menu:hover{
+	border-style:solid;
+	text-align:center;
+	background-color:17854C;
+	color:black;
+	  
+}
+.Menu a{
+    text-decoration:none;
+    text-align:center;
+	color:black;
+	display:block
+}	
+.banner{
+    height:200px;
+    border-style:solid;
+    text-align:center;
+    padding-top:85px;
+    font-weight:bold;
+    font-size:40px;
+    background-color:E5CA7A;
+    color:white;
+	background-image: url('welcome.jpg');
+	background-size:auto;
+}
+.banner:hover{
+	color:#873600;
+}
+.about{
+	text-align:justify;
+	background-image: url('about.jpg');
+	color:white;
+}
+.service{
+	text-align:justify;
+	background-image: url('about.jpg');
+	background-size:auto;
+	color:white;
+}
+.footer{
+	height:100px;
+	margin-top:20px;
+	background-color:gray;
+	background-image: url('footer.jpg');
+	background-size:auto;
+	
+}
+.footer a{
+	text-decoration:none;
+    text-align:center;
+	color:#808B96 ;
+}
+
+.games{
+	border-style:solid;
+	height:133px;
+	background-image:url(cod.jpg);
+	background-size:cover;
+	
+	
+}
+.h{
+    height:62px;
+    border-style:solid;
+    text-align:center;
+    padding-top:-2px;
+    font-weight:bold;
+    font-size:40px;
+    background-color:E5CA7A;
+    color:black;
+}
+.h{
+	
+	
+}
+.Action{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.cod{
+	border-style:solid;
+	height:133px;
+	background-image:url(cod.jpg);
+	background-size:cover;
+}
+.gta{
+	border-style:solid;
+	height:133px;
+	background-image:url(gta.jpg);
+	background-size:cover;
+}
+.cs{
+	border-style:solid;
+	height:133px;
+	background-image:url(cs.jpg);
+	background-size:cover;
+}
+.cyber{
+	border-style:solid;
+	height:133px;
+	background-image:url(cyber.jpg);
+	background-size:cover;
+}
+.Adventure{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.wd{
+	border-style:solid;
+	height:133px;
+	background-image:url(wd.jpg);
+	background-size:cover;
+}
+.tp{
+	border-style:solid;
+	height:133px;
+	background-image:url(tp.jpg);
+	background-size:cover;
+}
+.wt{
+	border-style:solid;
+	height:133px;
+	background-image:url(wt.jpg);
+	background-size:cover;
+}	
+.jedi{
+	border-style:solid;
+	height:133px;
+	background-image:url(jedi.jpg);
+	background-size:cover;
+}
+.Sports{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.rl{
+	border-style:solid;
+	height:133px;
+	background-image:url(rl.jpg);
+	background-size:cover;
+}
+.nfl{
+	border-style:solid;
+	height:133px;
+	background-image:url(nfl.jpg);
+	background-size:cover;
+}
+.nba{
+	border-style:solid;
+	height:133px;
+	background-image:url(nba.jpg);
+	background-size:cover;
+}
+.fifa{
+	border-style:solid;
+	height:133px;
+	background-image:url(fifa.jpg);
+	background-size:cover;
+}
+.Acrade{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.tek{
+	border-style:solid;
+	height:133px;
+	background-image:url(tek.jpg);
+	background-size:cover;
+}
+.sf{
+	border-style:solid;
+	height:133px;
+	background-image:url(sf.jpg);
+	background-size:cover;
+}
+.ki{
+	border-style:solid;
+	height:133px;
+	background-image:url(ki.jpg);
+	background-size:cover;
+}
+.wf{
+	border-style:solid;
+	height:133px;
+	background-image:url(wf.jpg);
+	background-size:cover;
+}
+.ug{
+    height:62px;
+    border-style:solid;
+    text-align:center;
+    padding-top:-2px;
+    font-weight:bold;
+    font-size:40px;
+    background-color:E5CA7A;
+    color:white;
+}
+.Ark{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.Prag{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.Des{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.ksp{
+	background-color:22465B;
+	height:30px;
+	text-align:center;
+	border-style:solid;
+	padding-top:4px;
+}
+.qb{
+	border-style:solid;
+	height:216px;
+	background-image:url(wf.jpg);
+	background-size:cover;
+	margin-left:262px;
+	
+}
+.iqb{
+	margin-left:262px;
+	
+}
+.forza4{
+	border-style:solid;
+	height:675px;
+	background-image:url(forza4.jpg);
+	background-size:cover;
+	margin-left:262px;
+}
+.iforza4{
+	margin-left:262px;
+	
+}
+.amongus{
+	border-style:solid;
+	height:694px;
+	background-image:url(amongus.jpg);
+	background-size:cover;
+	margin-left:262px;
+}
+.iamongus{
+	margin-left:262px;
+}
+.F1{
+	background-color:red;
+}
+.h1{
+	background-color:green;
+	border-style:solid;
+}
+.you{
+	margin-left:151px;
+}	
+
+
+
+
+	
+
+	

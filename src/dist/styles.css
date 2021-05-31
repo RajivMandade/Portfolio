@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+table {
+  border-collapse: collapse;
+  color: black;
+  border-color: brown;
+}
+
+h1 {
+  font-size: medium;
+  color: aqua;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 250px;
+}
+
+back {
+  background-color: black;
+}

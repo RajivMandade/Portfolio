@@ -1,0 +1,228 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="bootstrap.min.css">--->
+<style>
+	.back{
+		background-color: rgba(11, 14, 4, 0.781);
+	}
+	.heading{
+		color: paleturquoise;
+		font-style:unset;
+	}
+
+</style>
+	
+	
+	
+
+    <title>My Portfolio</title>
+  </head>
+  <body class='back'>
+     
+        <div class="container-fluid">
+		     <div class="row">
+			 	
+		        <div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" [routerLink]="['/contact']" routerLinkActive="router-link-active"  href="contact.html">Contact</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					<a class="nav-link" href="Index.html">Home <span class="sr-only"></span></a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link"   routerLinkActive="active" routerLink="about"  href="">About Me</a>
+					</li>
+					<li class="nav-item dropdown">
+					    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					   Project
+					   </a>
+					   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					     <li><a class="dropdown-item" [routerLink]="['/project1']" routerLinkActive="router-link-active"  href="project1.html">Project 1</a></li>
+					     <li><a class="dropdown-item" [routerLink]="['/project2']" routerLinkActive="router-link-active"   href="project2.html">Project2</a></li>
+			             <li><a class="dropdown-item" [routerLink]="['/project3']" routerLinkActive="router-link-active"  href="project3.html">Project3</a></li>
+					   </ul>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Rajiv Mandade</a>
+					</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+					
+					
+					</form>
+					</div>
+				</nav>
+				<router-outlet></router-outlet>
+				
+				</div>
+                <!----Image Start with box slider--->
+				<div class="col-md-10 ms-auto me-auto my-auto">
+					<h1 style="color: rgba(2, 15, 11, 0.63);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Photography is Art</h1>
+		            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                         <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                 <img src="assets/images/Ganesh.jpg" class="img-fluid" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                 <img src="assets/images/cycle.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                  <img src="assets/images/girl.jpg" class="d-block w-100" alt="...">
+                            </div>
+                         </div>
+                         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                         </a>
+                         <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Next</span>
+                         </a>
+                    </div>
+				           
+					 
+					
+					
+					
+			    </div>
+			    
+			
+				<!-- Image End--->
+				<!--Card Section Start---->
+		     <!-----
+			<div class="col-md-4 mt-2">
+					<div class="card" style="width: 18rem;">
+					<img src="assets/images/banner2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">PROJECT 1</h5>
+					<p class="card-text">Website using Grid-960 (HTML and CSS) </p>
+					<a href="project1.html" class="btn btn-primary">Details</a>
+					</div>
+					</div>
+				
+				
+			</div>
+			
+		
+			<div class="col-md-4 mt-2">
+					<div class="card" style="width: 18rem;">
+					<img src="assets/images/banner2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">PROJECT 2</h5>
+					<p class="card-text">Blind Reader (BE Final Year Project) </p>
+					<a href="project2.html" class="btn btn-primary">Details</a>
+					</div>
+					</div>
+				
+				
+			</div>
+		
+			<div class="col-md-4 mt-2">
+					<div class="card" style="width: 18rem;">
+					<img src="assets/images/banner2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title">PROJECT 3</h5>
+					<p class="card-text">Other Projects and Additional Information</p>
+					<a href="project3.html" class="btn btn-primary">Details</a>
+					</div>
+					</div>
+				
+				
+			</div>
+			------>
+			<!--Skills Start-->
+		<div class="col-md-8 mt-5">
+		   <h1  style="background-color: rgb(27, 101, 119);border-radius: 10px;color: black;" class="p-2 mb-2 ">Skills </h1>
+			 </div>
+		<div class="col-md-12 mt-5">
+		    <div class="progress">
+           <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Python</div>
+          </div>
+          <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML</div>
+          </div>
+          <div class="progress">
+           <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">CSS</div>
+           </div>
+          <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">JS/Jquery/JqueryUI</div>
+           </div>
+		   <div class="progress">
+			<div class="progress-bar " role="progressbar" style="width: 75%;background-color: black;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">MySQL(DBMS)</div>
+			 </div>
+			
+		</div>
+			<!--Skills End--->
+			
+		    <div class="col-md-6 mt-5">
+			         <h2  style="background-color: rgb(27, 101, 119);border-radius: 10px;color: black;" class="p-3 mb-2 ">Personnel Information</h2>
+					<table style="border-color: dodgerblue;border-radius: 5px; ;" class="table table-bordered table-hover p-3 mb-2 bg-light text-dark ">
+					     
+						  <tr>
+						         <td >Name:</td>
+								 <td>Rajiv Mandade</td>
+						  </tr>
+						  
+						  <tr>
+						         <td>Mobile No:</td>
+								 <td>7083325842</td>
+						  </tr>
+						  
+						  <tr>
+						         <td>Email Address:</td>
+								 <td>rajivmandade13@gmail.com</td>
+						  </tr>
+					</table>
+			 
+			 </div>
+			 <div class="col-md-6 mt-5">
+			        <h2 style="background-color: rgb(27, 101, 119);border-radius: 10px;color: black;" class="p-3 mb-2  ">Educational Details</h2> 
+					<table style="background-color: rgb(94, 89, 155);border:5px ;"  class="table table-bordered table-hover p-3 mb-2 bg-light text-dark">
+					     
+						  <tr>
+						         <td>Sr.No</td>
+								 <td>Course</td>
+								 <td>Year of passing</td>
+								 <td>Percentage</td>
+								 <td style="padding-left: 10px;">school/college name</td>
+						  </tr>
+						   <tr>
+						         <td>1</td>
+								 <td>BE (Instrumentation)</td>
+								 <td>2020</td>
+								 <td>6.89</td>
+								 <td>Ramrao Adik Institute Of Technology, Navi Mumbai</td>
+						  </tr>
+						  
+						  
+					</table>
+			 
+			 </div>
+			
+			
+		</div>
+		
+	</div>
+	<!----
+	 <script src="jquery.min.js"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    
+	 <script src="bootstrap.min.js"></script>--->
+    
+
+  
+  </body>
+</html>
